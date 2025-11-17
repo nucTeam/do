@@ -1,3 +1,0 @@
-package do
-
-func (s *RootScope) ServiceForEach(cb func(string, *Scope, any) bool) { s.self.serviceForEach(cb) }
